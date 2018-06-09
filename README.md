@@ -1,5 +1,7 @@
 # Recreate Apple landing page with CSS
 
+[See the solution to the assignment][solution].
+
 ### Instructions
 - Fork and clone repo
 - `cd` into directory
@@ -11,3 +13,5 @@
 
 ---
 Copyright (c) 2018 ThoughtWorks. For personal use and training purposes only; not to be copied or distributed without further approval.
+
+[solution]: https://github.com/thoughtworks-jumpstart/apple-css-lab/tree/solution
