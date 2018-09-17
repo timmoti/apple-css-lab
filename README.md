@@ -1,7 +1,5 @@
 # Recreate Apple landing page with CSS
 
-[See the solution to the assignment][solution].
-
 ### Instructions
 - Fork and clone repo
 - `cd` into directory
