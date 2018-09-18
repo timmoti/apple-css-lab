@@ -20,12 +20,12 @@
 - .banner h2
   - color: `#666`
 - .section
-  -background: `linear-gradient(rgb(243, 243, 243), white)`
-  -border-top: `rgb(223, 223, 223)`
+  - background: `linear-gradient(rgb(243, 243, 243), white)`
+  - border-top: `rgb(223, 223, 223)`
 - td
-  -color: `#666`
+  - color: `#666`
 - thead h1
-  -color: `#666`
+  - color: `#666`
 
 <<<<<<< HEAD
 
