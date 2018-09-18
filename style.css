@@ -1,0 +1,52 @@
+body {
+    margin: auto;
+    width: 980px;
+    background-color: #F1F1F1;
+    color: #666666;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration-color: #08c;
+    border: 0.1em #AAAAAA solid;
+}
+
+h1 {
+   color: #000000;
+    font-family: Lucida Grande; 
+    font-size: 4em;
+    margin: 0px;
+}
+
+h2 {
+    color: #666666;
+    margin: 0px;
+}
+
+#banner {
+    position: absolute;
+    top: 14px;
+    right: 200px;
+    text-align: right;
+}
+
+#coverPhoto {
+    margin: auto;
+    width: 1000px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 0.05em #AAAAAA solid;
+}
+
+td h1 {
+    color: #666666;
+    font-size: 2em;
+}
+
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid #AAAAAA;
+}
