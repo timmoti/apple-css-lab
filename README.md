@@ -16,8 +16,11 @@
 - a
   - color: `#08c`
 - #content
+  - background: `white`
   - border: `#aaaaaa`
-- .banner h2
+- #banner
+  - height: `677px`
+- #banner h2
   - color: `#666`
 - .section
   - background: `linear-gradient(rgb(243, 243, 243), white)`
