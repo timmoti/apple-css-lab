@@ -27,8 +27,11 @@
 - thead h1
   -color: `#666`
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> update readme.md to contain colors,font-family baseline
 ![end state](./goal.png)
 
 ---
