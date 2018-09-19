@@ -1,52 +1,85 @@
 body {
+    background-color: #F1F1F1;
+    color: #666;
+    font-family: Lucida Grande, sans-serif;
+    font-size: 16px;  
+}
+
+h1, h2, h3{
+    color: #000000;
+    font-family: 'Lucida Grande'; 
+}
+
+a {
+    color: #08c;
+    text-decoration: none
+}
+
+#content {
     margin: auto;
     width: 980px;
-    background-color: #F1F1F1;
-    color: #666666;
-    font-family: sans-serif;
-    font-size: 16px;
-    text-decoration-color: #08c;
-    border: 0.1em #AAAAAA solid;
-}
-
-h1 {
-   color: #000000;
-    font-family: Lucida Grande; 
-    font-size: 4em;
-    margin: 0px;
-}
-
-h2 {
-    color: #666666;
-    margin: 0px;
+    border: 0.05em #AAAAAA solid;
+    background-color: white;
 }
 
 #banner {
-    position: absolute;
-    top: 14px;
-    right: 200px;
+    background-image: url('/images/hero.png');
+    height: 670px;
+    background-repeat: no-repeat;
     text-align: right;
+    padding-right: 60px;
+   
 }
 
-#coverPhoto {
-    margin: auto;
-    width: 1000px;
+#banner h1 {
+    font-size: 5em;
+    margin-bottom: 0px;
+}
+
+#banner h2 {
+    color: #666;
+    margin-top: 0px;
 }
 
 .section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border: 0.05em #AAAAAA solid;
-}
-
-td h1 {
-    color: #666666;
-    font-size: 2em;
+    border-top: 1px solid rgb(223, 223, 223);
+    background: linear-gradient(rgb(243, 243, 243), white);
+    padding: 30px;
 }
 
 table {
+    font-size: 11px;
+    margin: 35px;
     border-collapse: collapse;
+    background: white;
+    /* padding: 100px; */
+    vertical-align: middle;
 }
-table, td, th {
+
+td, th {
     border: 1px solid #AAAAAA;
+    padding: 20px;
+}
+
+thead {
+    text-align: center;
+    /* padding: 2em; */
+}
+
+th {
+    text-align: left;
+    /* padding: 2em; */
+}
+
+td h1 {
+    color: #666;
+    font-size: 2em;
+    /* padding: 2em; */
+}
+
+td {
+    color: #666;
+    /* padding: 1.5em; */
 }
