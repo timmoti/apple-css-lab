@@ -10,7 +10,7 @@
 ### Colors/Fonts
 - body
   - background color: `#f1f1f1`
-  - font-family: `16px`
+  - font-size: `16px`
   - font-family: `Lucida Grande, sans-serif`
   - color: `#666`
 - a
